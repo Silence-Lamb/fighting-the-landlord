@@ -48,7 +48,7 @@ public class DouDiZhu{
 		showPoker("bob",poker,player2);
 		showPoker("cat",poker,player3);
 		showPoker("BASE",poker,base);
-		System.out.println(player1.size()+" "+player2.size()+" "+player3.size());
+		System.out.println("player1:"+player1.size()+"		player2:"+player2.size()+"		player3:"+player3.size());
 	}
 
 	private static void showPoker(String name,HashMap<Integer,String> poker,ArrayList<Integer> list) {
